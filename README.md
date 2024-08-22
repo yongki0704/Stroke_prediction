@@ -7,24 +7,22 @@ Stroke is one of the most dangerous diseases that can occur at any time to anyon
 2. data
    The data from kaggle includes 5110 observations with 12 features. Out of the 12 features, One feature is an identifier, One feature is a dependent variable, and ten are independent variables. Eight features are categorical variables and three features are continuous variables.
 
-Here is a brief description of the features.
+|Variable |	Description| type| Value|
+|:---------|:---------------------------|:---------------------------|:---------------------------|
+|id 	|Identification|   -|         -|
+|stroke |	whether a stroke has occurred or not <br>| Categorical Variable, Binary |1 = yes, 0 = no|
+|gender |	patients' gender| Categorical Variable, Binary|Male, Female| 
+|hypertension |	whether a patient has hypertension| Categorical Variable, Binary|1 = yes, 0 = no|
+|heart_disease |	whether a patient has heart disease| Categorical Variable, Binary|1 = yes, 0 = no |
+|ever_married |	whether a patient has married| Categorical Variable, Binary|yes, no|
+|Residence_type| 	patients' residence type| Categorical Variable, Binary|Urban, Rural|
+|work_type |	patients' work type| Categorical Variable, non-Binary|Govt_job, Private, Self-employed, Children, Never-worked|
+|smoking_status |	whether a patient has smoked.| Categorical Variable, non-Binary|smokes, Unknown, formerly smoked, never smoked|
+|age |	patients' age| Continuous Variable |from 0 to 82|
+|avg_glucose_level|	patients' average glucose level| Continuous Variable|from 0 to 272|
+|bmi |	patients' bmi| Continuous Variable|from 0 to 98|
 
-Variable	Description	type	Value
-id	Identification	-	-
-stroke	whether a stroke has occurred or not
-Categorical Variable, Binary	1 = yes, 0 = no
-gender	patients' gender	Categorical Variable, Binary	Male, Female
-hypertension	whether a patient has hypertension	Categorical Variable, Binary	1 = yes, 0 = no
-heart_disease	whether a patient has heart disease	Categorical Variable, Binary	1 = yes, 0 = no
-ever_married	whether a patient has married	Categorical Variable, Binary	yes, no
-Residence_type	patients' residence type	Categorical Variable, Binary	Urban, Rural
-work_type	patients' work type	Categorical Variable, non-Binary	Govt_job, Private, Self-employed, Children, Never-worked
-smoking_status	whether a patient has smoked.	Categorical Variable, non-Binary	smokes, Unknown, formerly smoked, never smoked
-age	patients' age	Continuous Variable	from 0 to 82
-avg_glucose_level	patients' average glucose level	Continuous Variable	from 0 to 272
-bmi	patients' bmi	Continuous Variable	from 0 to 98
-
-GEtting start
+3. Getting start
 pyplot
 numpy
 pandas
